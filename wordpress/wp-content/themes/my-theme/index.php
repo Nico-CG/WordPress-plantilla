@@ -34,8 +34,6 @@ get_header(); ?>
 			<?php
 			endif;
 
-            get_template_part( 'template-parts/content-movie', get_post_format() );
-
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();
 
